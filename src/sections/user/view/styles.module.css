@@ -1,0 +1,50 @@
+/* styles.module.css */
+  
+  .tableContainer {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Changed from 'end' to 'flex-end' */
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 rgba(145, 158, 171, 0.2), 0 12px 24px -4px rgba(145, 158, 171, 0.12);
+    /* border: 2px solid red; */
+  }
+  
+  .heading {
+    margin: 4% 0;
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button Button {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  .link:active{
+    color: blue;
+  }
+  
+  .tableWrapper {
+    overflow-x: auto;
+    width: 100%; /* Allow the table wrapper to take the full width */
+  }
+  
+  .table {
+    width: 100%; /* Set the table to take the full width of the wrapper */
+  }
+  
+  .openingrole_col{
+    margin-left: 60px;
+    /* border: 2px solid red; */
+  }
+  .status_col{
+    margin-left: -60px;
+    /* border: 2px solid red; */
+  }

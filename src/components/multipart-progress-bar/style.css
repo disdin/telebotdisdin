@@ -1,0 +1,21 @@
+.progressVisualFull {
+  display: flex;
+  border-radius: 5px;
+  margin: 20px 0;
+  border-radius: 99px;
+}
+
+.progressVisualPart {
+  display: flex;
+  align-items: center;
+  height: 14px;
+  justify-content: center;
+  transition: width 2s;
+}
+
+.text {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+}
