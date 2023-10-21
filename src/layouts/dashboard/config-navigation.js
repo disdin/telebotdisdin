@@ -41,7 +41,7 @@ export function useNavData() {
 
           // JOB
           {
-            title: t('jobs'),
+            title: t('users'),
             path: paths.dashboard.root,
             icon: ICONS.job,
           },
